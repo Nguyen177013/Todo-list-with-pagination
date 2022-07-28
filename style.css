@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 62.5%
+}
+#todoBody{
+    background: #fff;
+    width: 40rem;
+    min-height: 6rem;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 0.5rem;
+}
+.todoContent{
+    padding: 2rem 0;
+}
+.todoTitle{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+input[type=text]{
+    width:30rem ;
+    border: none;
+    border-bottom:1px solid #333 ;
+    margin-left: 1.5rem;
+}
+input[type=text]:focus{
+    outline: none;
+    font-weight: bold;
+}
+.todoSubmit{
+    margin-left:1.2rem;
+    padding: 0.3rem 1.8rem;
+    background: rgb(20, 93, 239);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.todoSubmit:active{
+    opacity: 0.7;
+}
+.center{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.listValue{
+    margin: 1rem;
+
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(9, 9, 9);
+    margin: 1em 0; padding: 0; 
+}
+.deleteList{
+    float: right;
+    margin-left:1.2rem;
+    padding: 0.4rem 1.8rem;
+    background: rgb(209, 5, 5);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.totalList{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.pagenumbers{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pagenumbers button{
+    margin: 5px 3px;
+    border: none;
+    background-color: rgb(25, 69, 69);
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagenumbers button:hover{
+    background-color: rgb(17, 49, 49);
+}
